@@ -78,3 +78,35 @@ body {
 .about-details a:hover {
   color: var(--gray-mid);
 }
+
+.work-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.work-block {
+  flex: 1;
+  min-width: 250px;
+}
+
+.work-heading {
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--black);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-company {
+  color: var(--gray-mid);
+  margin-bottom: 0.5rem;
+}
+
+.course-list {
+  padding-left: 1.2rem;
+}
