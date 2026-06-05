@@ -185,7 +185,22 @@
     <section id="contact" class="content-section section-gray">
       <div class="container">
         <h2 class="section-title">Contact</h2>
-        <p>Contact form</p>
+        <form class="contact-form" id="contactForm">
+          <div class="mb-3">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" type="text" id="name" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-control" type="email" id="email" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5"></textarea>
+          </div>
+          <div id="formMessage"></div>
+          <button type="submit" class="btn btn-dark">Send Message</button>
+        </form>
       </div>
     </section>
 

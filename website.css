@@ -110,3 +110,21 @@ body {
 .course-list {
   padding-left: 1.2rem;
 }
+
+.contact-form {
+  max-width: 600px;
+}
+
+.contact-form .form-label {
+  font-weight: bold;
+}
+
+.contact-form .form-control {
+  border: 1px solid var(--black);
+  border-radius: 0;
+}
+
+.contact-form .form-control:focus {
+  border-color: var(--black);
+  box-shadow: none;
+}
