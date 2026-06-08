@@ -154,3 +154,18 @@ nav.navbar {
   width: 100%;
   text-align: center;
 }
+
+#work .card {
+  min-height: 400px;
+}
+
+#work .card-body {
+  padding: 2.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#work .card-title {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
